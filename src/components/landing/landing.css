@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  /* min-height: 800px; */
+  height: 100vh;
+  background-image: url("./soc1.jpg");
+  background-color: white;
+  color: white;
+  font-family: 'Supermercado One', cursive;
+  background-size: 100%;
+}
+.main h4 {
+  font-size: 100px;
+  margin: 20px;
+  font-weight: 400;
+}
+.main h6 {
+  font-size: 25px;
+  max-width: 50%;
+  margin: 20px;
+  font-weight: 300;
+}
+.main2 {
+  background-color: rgba(0, 0, 1, 0.7);
+  /* min-height: 800px; */
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  flex-direction: column;
+}
+.main button {
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border:lightcyan;
+  outline: none;
+  font-size: 25px;
+  font-family: 'Andada Pro', serif
+}
+.button-1 {
+  background-color: #98fb98;
+  color: white;
+  transition: 0.3s;
+}
+.button-2{
+  background-color: #f9ffe3;
+  transition: 0.3s;
+}
+.main a {
+  text-decoration: none;
+  color:black;
+}
+.button-1:hover{
+ background-color: #98fb989a;
+}
+.button-2:hover{
+  background-color: #f9ffe3cc;
+}
+
+@media screen and (max-width: 1050px) {
+  .main h4{
+    font-size: 70px;
+  }
+  .main h6{
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main h4{
+    font-size: 50px;
+  }
+  .main h6{
+    font-size: 18px;
+  }
+  .main button{
+    font-size: 18px;
+    padding: 8px 25px;
+    margin: 10px;
+  }
+}

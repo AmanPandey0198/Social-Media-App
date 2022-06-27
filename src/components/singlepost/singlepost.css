@@ -1,0 +1,131 @@
+.singlepost {
+  /* background-image: linear-gradient(to right, grey, #80daeb); */
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  margin: 40px 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  /* border: 1px solid black; */
+  /* min-height: 300px; */
+  padding: 30px;
+  /* gap: 100px; */
+  border: none;
+  /* flex-direction: column; */
+  font-family: 'Lobster', cursive;
+}
+@media(max-width:500px){
+  .singlepost{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .singlepost2{
+   padding-left: 0px!important;
+   margin-top: 15px;
+  }
+}
+.singlepostLeft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.singlepostLeft p{
+  margin-top: 5px;
+  color:rgba(29, 29, 49, 0.932);
+}
+.singlepost img {
+  height: 100px;
+  border-radius: 50px;
+}
+.singlepost h6 {
+  font-size: 15px;
+  color: rgba(29, 29, 49, 0.932);
+  margin: 0px 10px;
+  align-self: flex-end;
+  font-weight: 100;
+}
+.singlepost button {
+  
+  /* padding: 5px 30px; */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  border:none;
+  cursor: pointer;
+}
+.button0 {
+  background-color: #335e33;
+  display: flex;
+  margin: 5px 10px;
+  gap:5px;
+  align-items: center;
+  padding: 9px 10px;
+  justify-content: center;
+}
+.button0 span{
+  color: white;
+}
+.singlepost a {
+  color: white;
+  text-decoration: none;
+}
+.singlepost a:visited{
+  color: white;
+}
+.button2 {
+  background-color: #a34d2d;
+  display: flex;
+  margin: 5px 10px;
+  gap:5px;
+  align-items: center;
+  padding: 9px 10px;
+  justify-content: center;
+}
+.button3 {
+  background-color: rgba(29, 29, 49, 0.932);
+  color: white;
+  padding: 14px 10px;
+  margin: 5px 0;
+}
+
+.singlepost3{
+  min-height: 100px;
+  /* min-width: 500px; */
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  background-color: rgb(29, 29, 49);
+  color: rgb(201, 196, 196);
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-left: 30px; */
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.singlepost2{
+  padding-left: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.singlepostButtons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likedislike{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}

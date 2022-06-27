@@ -1,0 +1,44 @@
+.login {
+  /* background-image: linear-gradient(#addfad, white); */
+  /* padding: 50px 200px; */
+  /* height: 800px; */
+     height: 95vh;
+    background-color: rgb(29, 29, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+}
+.login h1 {
+  color: white;
+}
+.login h6 {
+  font-size: 20px;
+  color: grey;
+  margin: 10px 0px;
+  font-weight: 100;
+}
+.login input {
+  width: 50%;
+  padding: 5px 20px;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.login button {
+  background-color: rgb(69, 69, 112);
+  color: white;
+  padding: 10px 30px;
+  margin: 10px;
+  border:none;
+  border-radius: 5px;
+}
+.login button:hover{
+  letter-spacing: 2px;
+}
+.login a{
+  text-decoration: none;
+  color: white;
+}
